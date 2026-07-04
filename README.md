@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪞 Miror Copy Trades
+# 🪞Trades Journal
 
 ### `real-time mirroring` · `multi-broker` · `data-dense React`
 
