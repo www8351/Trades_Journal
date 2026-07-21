@@ -4,8 +4,8 @@
 
 ### `real-time mirroring` · `multi-broker` · `data-dense React`
 
-**Trade-copy analytics & mirroring dashboard for prop-firm and multi-broker accounts — import, normalize, and visualize execution data with strict end-to-end type safety.**
-*דשבורד אנליטיקה ושיקוף עסקאות לחשבונות פרופ-פירם ומרובי-ברוקרים — ייבוא, נורמליזציה והצגה של נתוני ביצוע עם בטיחות-טיפוסים מקצה לקצה.*
+**Trade-copy analytics & mirroring dashboard for prop-firm and multi-broker accounts import, normalize, and visualize execution data with strict end-to-end type safety.**
+*דשבורד אנליטיקה ושיקוף עסקאות לחשבונות פרופ-פירם ומרובי-ברוקרים ייבוא, נורמליזציה והצגה של נתוני ביצוע עם בטיחות-טיפוסים מקצה לקצה.*
 
 <br/>
 
@@ -24,7 +24,7 @@
 </div>
 
 > 🔓 **Sanitized public mirror** of a private production codebase. No secrets in source or Git
-> history — all credentials injected at runtime via env vars / platform secret stores
+> history all credentials injected at runtime via env vars / platform secret stores
 > ([`.env.example`](./.env.example)). Wire it to your own Supabase project to run it.
 
 ---
@@ -73,16 +73,16 @@ React אנימטיבי וצפוף-נתונים.
 
 | Layer | Technology |
 |-------|------------|
-| Framework | **Next.js 16** — App Router, Server Actions, Route Handlers |
-| Language | **TypeScript 5** (strict) — typed end-to-end against the DB schema |
+| Framework | **Next.js 16** App Router, Server Actions, Route Handlers |
+| Language | **TypeScript 5** (strict) typed end-to-end against the DB schema |
 | UI | React 19 · Tailwind CSS 4 · `class-variance-authority` · shadcn-style primitives |
 | Animation | Framer Motion 12 |
 | Data viz | Recharts 3 |
 | Tables | TanStack React Table 8 (sort, filter, virtualization-ready) |
-| Backend | Supabase — Postgres + Row-Level Security + Auth |
+| Backend | Supabase Postgres + Row-Level Security + Auth |
 | Validation | Zod 4 (parse-don't-validate at every boundary) |
-| Precision | `decimal.js` — no float drift on monetary math |
-| Import | PapaParse — streaming CSV ingest of broker statements |
+| Precision | `decimal.js` no float drift on monetary math |
+| Import | PapaParse streaming CSV ingest of broker statements |
 | Testing | Vitest 4 |
 
 ---
@@ -122,7 +122,7 @@ npm test             # Vitest
 npm run build        # production build
 ```
 
-**Prerequisites:** Node.js 20+ · a Supabase project (free tier is enough) — copy its
+**Prerequisites:** Node.js 20+ · a Supabase project (free tier is enough) copy its
 `URL` and `anon` key from **Settings → API** into `.env.local`.
 
 ---
